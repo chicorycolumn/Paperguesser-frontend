@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Paperguesser frontend
+
+## Description
+
+Wormplay is an online two-player word game that uses webcam for facial recognition. Upon entering the lobby, players can pull faces to represent four different emotions, and the emotion recognition API uses the webcam to detect which emotion is being expressed, and takes a photo at the correct moment. These photos of the player's own face are transferred onto the 'word worm' - a 2D physics object that crawls around the screen - onto which the player drops Scrabble tiles to spell out words and beat their opponent.
+
+The game provides:
+
+- A login and lobby system to find other users online to play against, built with React
+- An in-game chatroom , built with Socket.IO
+- A webcam feature with facial and emotion recognition, built with a facial recognition API
+- A 2D physics game, built with Phaser
+- Realtime connections to allow both players to see each other's in-game action instantly, via a backend server using Express and Socket.IO
+- Checking of valid words during gameplay, via the Oxford English Dictionary API
+
+## Instructions
+
+This frontend will be live on [Netlify](https://paperguesser.netlify.app/).
+<br/>
+The backend counterpart repository can be found [here](https://github.com/chicorycolumn/Paperguesser-backend).
+<br/>
+You can also download this repository and run the project locally by following these steps:
+
+1. Fork this repository by clicking the button labelled 'Fork' on the [project page](https://github.com/chicorycolumn/Paperguesser-frontend).
+   <br/>
+   Copy the url of your forked copy of the repository, and run `git clone the_url_of_your_forked_copy` in a Terminal window on your computer, replacing the long underscored word with your url.
+   <br/>
+   If you are unsure, instructions on forking can be found [here](https://guides.github.com/activities/forking/) or [here](https://www.toolsqa.com/git/git-fork/), and cloning [here](https://www.wikihow.com/Clone-a-Repository-on-Github) or [here](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/).
+
+2. Open the project in a code editor, and run `npm install` to install necessary packages. You may also need to install [Node.js](https://nodejs.org/en/) by running `npm install node.js`.
+
+3. Run `npm start` to open the project in development mode.
+   <br/>
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Deploy
 
-In the project directory, you can run:
+General instructions for taking a **React project** and hosting it on **Netlify** for **automatic deployment** are as follows:
 
-### `npm start`
+0. Ensure the project is initialised in a Git repository. If you are unsure what this means, instructions can be found [here](https://medium.com/@JinnaBalu/initialize-local-git-repository-push-to-the-remote-repository-787f83ff999) and [here](https://www.theserverside.com/video/How-to-create-a-local-repository-with-the-git-init-command).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Login to Netlify and click _New Site from Git_, then select _Github_ and then the project in question. Set the command as `npm run build`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Now when you commit and push to Github, Netlify will deploy the latest version of the project automatically.
 
-### `npm test`
+## Built with
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [JavaScript](https://www.javascript.com/) - The primary coding language
+- [VisualStudioCode](https://code.visualstudio.com/) - The code editor
+- [Babel](https://babeljs.io/) - The compiler
 
-### `npm run build`
+- [Heroku](https://www.heroku.com/) - The cloud application platform used for the backend
+- [Netlify](https://www.netlify.com/) - The hosting service used for the frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Socket.IO](https://socket.io/) - The realtime library
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/) - The frontend framework
+- [CSS Modules](https://github.com/css-modules/css-modules) - The design organisation system

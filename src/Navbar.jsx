@@ -35,7 +35,7 @@ const Navbar = (props) => {
         ) : (
           <img alt="logo" className={`${styles.navbarLogo}`} src={navlogo} />
         )}
-        <h1 className={`${styles.navbarTitle}`}>Chattercat</h1>{" "}
+        <h1 className={`${styles.navbarTitle}`}>Paperguesser</h1>{" "}
       </Link>
 
       <div className={`${styles.navbarInnerBoxRight}`}>

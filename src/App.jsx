@@ -19,10 +19,10 @@ import Alert from "./Alert.jsx";
 
 const utils = require("./utils/utils.js");
 
-const localEnv = false;
+const localEnv = true;
 const ENDPOINT = localEnv
   ? "http://127.0.0.1:4002"
-  : "https://chattercat-server.herokuapp.com/";
+  : "https://paperguesser-server.herokuapp.com/";
 
 export default function App() {
   console.log("((App))");
