@@ -9,7 +9,7 @@ import a from "./css/Animations.module.css";
 import panelStyles from "./css/Panel.module.css";
 import styles from "./css/App.module.css";
 
-import logoCentred from "./images/logo_cat_centred.png";
+import logoCentred from "./images/logo_postit.png";
 
 import LobbyPanel from "./LobbyPanel.jsx";
 import RoomWrapper from "./RoomWrapper.jsx";

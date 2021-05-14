@@ -6,8 +6,8 @@ import g from "./css/Generic.module.css";
 import a from "./css/Animations.module.css";
 import styles from "./css/Navbar.module.css";
 
-import navlogo from "./images/logo_cat.png";
-import navlogoBroken from "./images/logo_cat_broken.png";
+import navlogo from "./images/logo_postit.png";
+import navlogoBroken from "./images/logo_postit_broken.png";
 
 const utils = require("./utils/utils.js");
 
