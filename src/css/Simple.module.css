@@ -1,0 +1,101 @@
+.overflowScroll {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+.overflowSplit {
+  overflow-x: hidden;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.opacity5 {
+  opacity: 0.5;
+}
+
+.noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.noOutline {
+  outline: none;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.borderR {
+  border: red solid 2px !important;
+}
+
+.borderB {
+  border: blue solid 2px !important;
+}
+
+.borderG {
+  border: greenyellow solid 2px !important;
+}
+
+.borderY {
+  border: yellow solid 2px !important;
+}
+
+.borderK {
+  border: black solid 2px !important;
+}
+
+.borderR:focus {
+  border: red dotted 4px !important;
+}
+
+.borderB:focus {
+  border: blue dotted 4px !important;
+}
+
+.borderG:focus {
+  border: greenyellow dotted 4px !important;
+}
+
+.borderY:focus {
+  border: yellow dotted 4px !important;
+}
+
+.borderK:focus {
+  border: black dotted 4px !important;
+}
+
+.posRel {
+  position: relative;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.dispNone {
+  display: none;
+}

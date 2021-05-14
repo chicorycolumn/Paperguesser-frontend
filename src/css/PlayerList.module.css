@@ -1,0 +1,68 @@
+.nameItem {
+  width: 100%;
+  background-color: var(--pPink_L3);
+  padding: 5px 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.awards {
+  flex-basis: 20%;
+  text-align: left;
+}
+
+.name {
+  font-size: 16px;
+  flex-basis: 65%;
+}
+
+.stars {
+  flex-basis: 20%;
+  color: var(--pBlue_D2);
+  text-align: right;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.smallEmoji1 {
+  font-size: 12px;
+}
+
+.smallEmoji2 {
+  font-size: 12px;
+  position: relative;
+  bottom: 1px;
+}
+
+.nameItem:nth-child(even) {
+  background-color: var(--pYellow_L3);
+}
+
+.innerBox01 {
+  height: 100%;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 200px var(--pBlue_L2);
+}
+
+.innerBox02 {
+  height: 100%;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 200px var(--pBlue_L2);
+}
+
+.bootTab {
+  border: none;
+  background-color: none;
+  height: 25px;
+  box-shadow: 1px 1px 2px black;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -4px;
+  background-color: var(--pPink_L2);
+  border-radius: 5px;
+}
+
+.bootTab:hover {
+  background-color: var(--pPink);
+}

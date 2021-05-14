@@ -1,0 +1,125 @@
+:root {
+  /* COLORING */
+
+  /*Base*/
+  --pPink: #ff1b8d;
+  --pYellow: #ffda00;
+  --pBlue: #1bb3ff;
+
+  /*Dark*/
+  --pPink_D1: #bd1468;
+  --pYellow_D1: #caac00;
+  --pBlue_D1: #158ac5;
+  --pPink_D2: #860c49;
+  --pYellow_D2: #8d7800;
+  --pBlue_D2: #106a97;
+  --pPink_D3: #460626;
+  --pYellow_D3: #4d4100;
+  --pBlue_D3: #093d57;
+
+  /*Light*/
+  --pPink_L1: #fa56a8;
+  --pYellow_L1: #fae35e;
+  --pBlue_L1: #59c4fa;
+  --pPink_L2: #f896c7;
+  --pYellow_L2: #f7eaa0;
+  --pBlue_L2: #a5dcf8;
+  --pPink_L3: #fce6f1;
+  --pYellow_L3: #fffcea;
+  --pBlue_L3: #dbf0fa;
+  --pBlue_L2a: #cfebf8;
+
+  /*FONTS*/
+
+  --fontBasic: "Rubik", Roboto, Arial, sans-serif;
+  /* --fontBasic: "Dosis", Roboto, Arial, sans-serif; */
+
+  --fontHeading: "Cambay", sans-serif;
+
+  --fontLogo: "Courgette", cursive;
+  /* --fontLogo: "Sail", cursive; */
+  /* --fontLogo: "Darker Grotesque", sans-serif; */
+
+  --fontInput: monospace;
+
+  --fontBigInput: monospace;
+  /* --fontBigInput: "Courgette", cursive; */
+
+  --fontButton: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--fontBasic);
+}
+
+textarea {
+  font-family: var(--fontInput);
+}
+
+p {
+  font-size: 15px;
+}
+
+button:disabled {
+  background-color: rgb(231, 231, 231);
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+textarea {
+  resize: none;
+  border-radius: 5px;
+  background-color: var(--pYellow_L3);
+}
+
+.App {
+  padding-top: 50px;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--fontHeading);
+  font-weight: 700;
+}
+
+button {
+  font-family: var(--fontButton);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 7.5px;
+}
+
+.background {
+  background-image: url(../images/tile_leaf4.png);
+  opacity: 0.25;
+  background-size: 250px;
+  background-repeat: repeat;
+  position: fixed;
+  width: 100%;
+  z-index: -2;
+  height: 110%;
+  margin-top: -20px;
+}
+
+.backgroundShroud {
+  position: fixed;
+  width: 100%;
+  background-color: var(--pBlue_D1);
+  opacity: 0.85;
+  z-index: -1;
+  height: 110%;
+  margin-top: -20px;
+}

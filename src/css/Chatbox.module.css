@@ -1,0 +1,89 @@
+.chatboxSuper {
+  width: 100%;
+  height: 300px;
+  background-color: var(--pBlue_L3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.chatOutputContainer {
+  width: 100%;
+  height: 240px;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 0px 0px 200px var(--pBlue_L2);
+  text-align: center;
+  background-color: var(--pBlue_L3);
+}
+
+.chatItem {
+  padding: 5px 5px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.chatItem:nth-child(even) {
+  background-color: var(--pBlue_L2a);
+}
+
+.chatAnnouncement {
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chatName {
+  font-style: italic;
+  text-align: center;
+  color: var(--pBlue_D2);
+  padding: 0px;
+  margin: 0px;
+  padding-right: 10px;
+  width: 140px;
+  min-width: 140px;
+}
+
+.chatDialogue {
+  padding: 0px;
+  margin: 0px;
+  width: 72.5%;
+}
+
+.chatInputContainer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chatboxInput {
+  width: 80%;
+  height: 100%;
+  background-color: var(--pBlue_L3);
+  padding: 10px 10px 0px 10px;
+}
+
+.chatboxInput:hover {
+  background-color: var(--pYellow_L3);
+}
+
+.sendButton {
+  width: 20%;
+  height: 100%;
+  background-color: var(--pPink_L3);
+  border: none;
+}
+
+.sendButton:hover {
+  background-color: var(--pYellow_L3);
+}

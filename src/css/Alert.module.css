@@ -1,0 +1,21 @@
+.backgroundImageLeft {
+  width: 65px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+.backgroundImageRight {
+  width: 65px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.1;
+}
+
+.alertText {
+  margin-top: -5px;
+  color: var(--pPink_D3);
+  font-size: 16px;
+}

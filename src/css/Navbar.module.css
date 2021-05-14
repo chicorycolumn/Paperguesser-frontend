@@ -1,0 +1,84 @@
+.navbar {
+  width: 100%;
+  height: 40px;
+  background-color: var(--pPink_D2);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  box-shadow: 0px 2px 4px black;
+}
+
+.navbarInnerBoxLeft {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.navbarInnerBoxRight {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarTitle {
+  font-family: var(--fontLogo);
+  font-weight: bold;
+  font-size: 28px;
+  color: var(--pYellow_L1);
+  margin-bottom: 5px;
+}
+
+.navbarLogo {
+  height: 80%;
+  margin-right: 5px;
+  margin-top: 12.5px;
+}
+
+.navbarItem {
+  font-family: var(--fontHeading);
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 12.5px 0px;
+  text-align: center;
+  height: 100%;
+  text-decoration: none;
+  color: var(--pYellow_L1);
+}
+
+.hoverable1:hover {
+  background-color: var(--pPink_D1);
+}
+
+.hoverable1hovered {
+  background-color: var(--pPink_D1);
+}
+
+.errorColor {
+  background-color: var(--pYellow_D3) !important;
+}
+
+.navbarInnerBoxMiddle {
+  padding-top: 17.5px;
+
+  margin-left: 0px; /*mobile*/
+}
+
+@media only screen and (min-device-width: 540px) {
+  .navbarInnerBoxMiddle {
+    margin-left: -90px !important;
+  }
+}

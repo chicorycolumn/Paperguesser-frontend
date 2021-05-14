@@ -1,0 +1,308 @@
+.glide {
+  animation-fill-mode: forwards;
+  animation-name: glide;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes glide {
+  from {
+    height: 50px;
+  }
+  to {
+    height: 300px;
+  }
+}
+@-webkit-keyframes glide {
+  from {
+    height: 50px;
+  }
+  to {
+    height: 300px;
+  }
+}
+
+.spin {
+  animation: spin 0.5s infinite;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flashPink {
+  -webkit-animation-name: flashPink;
+  animation-name: flashPink;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+}
+@-webkit-keyframes flashPink {
+  0% {
+    background-color: inherit;
+  }
+  10% {
+    background-color: var(--pPink);
+  }
+  20% {
+    background-color: inherit;
+  }
+  30% {
+    background-color: var(--pPink);
+  }
+  40% {
+    background-color: inherit;
+  }
+  50% {
+    background-color: var(--pPink);
+  }
+  100% {
+    background-color: inherit;
+  }
+}
+@keyframes flashPink {
+  0% {
+    background-color: inherit;
+  }
+  10% {
+    background-color: var(--pPink);
+  }
+  20% {
+    background-color: inherit;
+  }
+  30% {
+    background-color: var(--pPink);
+  }
+  40% {
+    background-color: inherit;
+  }
+  50% {
+    background-color: var(--pPink);
+  }
+  100% {
+    background-color: inherit;
+  }
+}
+
+.flashBlueFast {
+  -webkit-animation-name: flashBlueFast;
+  animation-name: flashBlueFast;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes flashBlueFast {
+  0% {
+    background-color: inherit;
+  }
+  50% {
+    background-color: var(--pBlue);
+  }
+  100% {
+    background-color: inherit;
+  }
+}
+@keyframes flashBlueFast {
+  0% {
+    background-color: inherit;
+  }
+  50% {
+    background-color: var(--pBlue);
+  }
+  100% {
+    background-color: inherit;
+  }
+}
+
+.splashBlueS1T1 {
+  -webkit-animation: splashBlueS1 0.25s;
+  animation: splashBlueS1 0.25s;
+}
+.splashBlueS1T2 {
+  -webkit-animation: splashBlueS1 0.5s;
+  animation: splashBlueS1 0.5s;
+}
+.splashBlueS1T3 {
+  -webkit-animation: splashBlueS1 1s;
+  animation: splashBlueS1 1s;
+}
+.splashBlueS2T1 {
+  -webkit-animation: splashBlueS2 0.25s;
+  animation: splashBlueS2 0.25s;
+}
+.splashBlueS2T2 {
+  -webkit-animation: splashBlueS2 0.5s;
+  animation: splashBlueS2 0.5s;
+}
+.splashBlueS2T3 {
+  -webkit-animation: splashBlueS2 1s;
+  animation: splashBlueS2 1s;
+}
+.splashBlueS3T1 {
+  -webkit-animation: splashBlueS3 0.25s;
+  animation: splashBlueS3 0.25s;
+}
+.splashBlueS3T2 {
+  -webkit-animation: splashBlueS3 0.5s;
+  animation: splashBlueS3 0.5s;
+}
+.splashBlueS3T3 {
+  -webkit-animation: splashBlueS3 1s;
+  animation: splashBlueS3 1s;
+}
+@-webkit-keyframes splashBlueS1 {
+  0% {
+    outline: inherit;
+    border-radius: 0px;
+  }
+  1% {
+    outline: var(--pBlue_D1) solid 1.5px;
+    border-radius: 0px;
+  }
+  100% {
+    outline: transparent solid 7.5px;
+  }
+}
+@keyframes splashBlueS1 {
+  0% {
+    outline: inherit;
+    border-radius: 0px;
+  }
+  1% {
+    outline: var(--pBlue_D1) solid 1.5px;
+    border-radius: 0px;
+  }
+  100% {
+    outline: transparent solid 7.5px;
+  }
+}
+@-webkit-keyframes splashBlueS2 {
+  0% {
+    outline: inherit;
+    border-radius: 0px;
+  }
+  1% {
+    outline: var(--pBlue_D1) solid 3px;
+    border-radius: 0px;
+  }
+  100% {
+    outline: transparent solid 15px;
+  }
+}
+@keyframes splashBlueS2 {
+  0% {
+    outline: inherit;
+    border-radius: 0px;
+  }
+  1% {
+    outline: var(--pBlue_D1) solid 3px;
+    border-radius: 0px;
+  }
+  100% {
+    outline: transparent solid 15px;
+  }
+}
+@-webkit-keyframes splashBlueS3 {
+  0% {
+    outline: inherit;
+    border-radius: 0px;
+  }
+  1% {
+    outline: var(--pBlue_D1) solid 6px;
+    border-radius: 0px;
+  }
+  100% {
+    outline: transparent solid 30px;
+  }
+}
+@keyframes splashBlueS3 {
+  0% {
+    outline: inherit;
+    border-radius: 0px;
+  }
+  1% {
+    outline: var(--pBlue_D1) solid 6px;
+    border-radius: 0px;
+  }
+  100% {
+    outline: transparent solid 30px;
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 0.2s linear forwards;
+  animation: fadeIn 0.2s linear forwards;
+  opacity: 0;
+  visibility: hidden;
+}
+.fadeInFast {
+  -webkit-animation: fadeIn 0.1s linear forwards;
+  animation: fadeIn 0.1s linear forwards;
+  opacity: 0;
+  visibility: hidden;
+}
+.fadeInSlow {
+  -webkit-animation: fadeIn 0.4s linear forwards;
+  animation: fadeIn 0.4s linear forwards;
+  opacity: 0;
+  visibility: hidden;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.fadeOut {
+  -webkit-animation: fadeOut 0.2s linear forwards;
+  animation: fadeOut 0.2s linear forwards;
+  opacity: 1;
+  visibility: visible;
+}
+.fadeOutFast {
+  -webkit-animation: fadeOut 0.1s linear forwards;
+  animation: fadeOut 0.1s linear forwards;
+  opacity: 1;
+  visibility: visible;
+}
+.fadeOutSlow {
+  -webkit-animation: fadeOut 0.4s linear forwards;
+  animation: fadeOut 0.4s linear forwards;
+  opacity: 1;
+  visibility: visible;
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

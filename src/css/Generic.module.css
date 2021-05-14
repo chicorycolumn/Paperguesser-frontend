@@ -1,0 +1,72 @@
+.boxStyle1 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px black;
+}
+
+.paddingRight {
+  padding: 0px 10px;
+}
+
+.button1 {
+  background-color: var(--pYellow_L3);
+  border-radius: 5px;
+}
+
+.devButton {
+  width: 30px !important;
+  background-color: var(--pPink_D2);
+}
+
+.obscurus {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+  position: fixed;
+  top: 30px;
+}
+
+.transitionObscurus {
+  visibility: hidden;
+
+  width: 100%;
+  height: 100%;
+  background-color: var(--pBlue_D1);
+  z-index: 1;
+  position: fixed;
+  height: 110%;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.transitionObscurusImage {
+  height: 150px;
+  margin-bottom: 150%;
+  filter: blur(1px);
+  opacity: 0.5;
+}
+
+.nameSmaller {
+  padding-top: 1.5px !important;
+  font-size: 13px !important;
+}
+
+.tooltip {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  z-index: 3;
+  visibility: hidden;
+  left: 25px;
+}
+
+.tooltipHolder:hover .tooltip {
+  visibility: visible;
+}

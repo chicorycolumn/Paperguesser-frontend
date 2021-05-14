@@ -1,0 +1,269 @@
+.bigPortraitPanel {
+  height: 360px; /* mobile */
+  width: 270px; /* mobile */
+  padding-top: 30px; /*mobile*/
+  padding-bottom: 10px; /*mobile*/
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mediumLandscapePanel {
+  width: 280px; /* mobile */
+  margin-left: -140px; /* mobile */
+
+  position: absolute;
+  left: 50%;
+  height: 250px;
+  margin-top: 45px;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-image: url(../images/cornertile_leaf1c_light.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+.smallLandscapePanel {
+  height: 150px;
+  width: 180px;
+  padding: 25px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.smallPortraitPanel {
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px black;
+  text-align: center;
+  background-color: var(--pBlue_L3);
+  height: 240px;
+  width: 228px;
+  min-width: 228px;
+
+  background-image: url(../images/tile_leaf6.png);
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.panelYellowFancy {
+  background-color: var(--pYellow);
+  box-shadow: 2px 2px 6px black;
+  border: var(--pYellow_D2) solid 1px;
+  color: var(--pPink_D2);
+  background-image: url(../images/bgtile_leaf3a.png);
+  background-size: 330px;
+  background-position: -10px 0px;
+  background-repeat: no-repeat;
+}
+
+.panelYellow1 {
+  background-color: var(--pYellow_L1);
+  box-shadow: 2px 2px 6px black;
+  border: var(--pYellow_D1) solid 1px;
+  color: var(--pBlue_D3);
+}
+
+.panelPinkFancy {
+  background-color: var(--pPink_L2);
+  box-shadow: 2px 2px 6px black;
+  border: var(--pPink) solid 1px;
+  color: var(--pPink_D2);
+
+  background-image: url(../images/bgtile_leaf2a.png);
+  background-size: 360px;
+  background-position: -20px -60px;
+  background-repeat: no-repeat;
+}
+
+.panelPink1 {
+  background-color: var(--pPink_L2);
+  border: var(--pPink) solid 2px;
+  color: var(--pPink_D3);
+}
+
+.panelBlue1 {
+  background-color: var(--pBlue_L2);
+  box-shadow: 0px 0px 10px var(--pBlue);
+  border: var(--pBlue_L1) solid 1px;
+  color: var(--pBlue_D3);
+}
+
+.innerBox1 {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBox1 > h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.innerBox1 > button {
+  margin-top: 5px; /* mobile */
+
+  margin-bottom: 10px;
+}
+
+.innerBox2 {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.entryInput {
+  font-family: var(--fontBigInput);
+  width: 75%;
+  font-size: 18px;
+  height: 28px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.entryInputNoHover {
+  font-family: var(--fontBigInput);
+  width: 75%;
+  font-size: 18px;
+  height: 28px;
+  text-align: center;
+  overflow: hidden;
+  color: transparent;
+}
+
+.button1 {
+  width: 100px;
+  height: 50px;
+  border: var(--pPink_D2) solid 2px;
+  outline: none;
+}
+
+.entryInput:hover,
+.button1:hover {
+  background-color: var(--pBlue_L3);
+}
+
+.exitButton {
+  outline: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  font-size: 20px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: -0.5px;
+  right: -0.5px;
+}
+
+.exitButtonBlue {
+  background: none;
+  border: none;
+  border-top-right-radius: inherit;
+  border-top: none;
+  border-right: none;
+  color: var(--pPink);
+}
+
+.exitButtonBlue:hover {
+  background-color: var(--pBlue_L1);
+}
+
+.exitButtonPink {
+  background: none;
+  border: none;
+  border-top-right-radius: inherit;
+  border-top: none;
+  border-right: none;
+  color: var(--pPink_D1);
+}
+
+.exitButtonPink:hover {
+  background-color: var(--pPink_L1);
+}
+
+.exitButtonYellow {
+  background: none;
+  border: none;
+  border-top-right-radius: inherit;
+  border-top: none;
+  border-right: none;
+  color: var(--pPink_D1);
+}
+
+.exitButtonYellow:hover {
+  background-color: var(--pYellow_D1);
+}
+
+.copyButton {
+  outline: none;
+  font-size: 14px;
+  width: 37.5px;
+  height: 100%;
+  background: none;
+  border: none;
+  color: var(--pPink);
+  border: var(--pBlue_L1) solid 2px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.copyButtonRight {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+}
+
+.copyButtonLeft {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+}
+
+.copyButton:hover {
+  background-color: var(--pBlue_L1);
+}
+
+.title1 {
+}
+
+.title2 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-device-width: 540px) {
+  .mediumLandscapePanel {
+    margin-left: -190px !important;
+    width: 380px !important;
+  }
+
+  .bigPortraitPanel {
+    height: 400px !important;
+    width: 300px !important;
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+  }
+
+  .innerBox1 > button {
+    margin-top: 30px;
+  }
+}
