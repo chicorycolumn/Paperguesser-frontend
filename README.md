@@ -2,16 +2,13 @@
 
 ## Description
 
-Wormplay is an online two-player word game that uses webcam for facial recognition. Upon entering the lobby, players can pull faces to represent four different emotions, and the emotion recognition API uses the webcam to detect which emotion is being expressed, and takes a photo at the correct moment. These photos of the player's own face are transferred onto the 'word worm' - a 2D physics object that crawls around the screen - onto which the player drops Scrabble tiles to spell out words and beat their opponent.
+Paperguesser is an online multiplayer guessing game.
 
 The game provides:
 
-- A login and lobby system to find other users online to play against, built with React
+- A login and lobby built with React, with the ability to password protect rooms
 - An in-game chatroom , built with Socket.IO
-- A webcam feature with facial and emotion recognition, built with a facial recognition API
-- A 2D physics game, built with Phaser
-- Realtime connections to allow both players to see each other's in-game action instantly, via a backend server using Express and Socket.IO
-- Checking of valid words during gameplay, via the Oxford English Dictionary API
+- A fully functional guessing game
 
 ## Instructions
 
