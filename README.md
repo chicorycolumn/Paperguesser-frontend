@@ -7,7 +7,7 @@ Paperguesser is an online multiplayer guessing game.
 The game provides:
 
 - A login and lobby built with React, with the ability to password protect rooms
-- An in-game chatroom , built with Socket.IO
+- An in-game chatroom, built with Socket.IO
 - A fully functional guessing game
 
 ## Instructions
