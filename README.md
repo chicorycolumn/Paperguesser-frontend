@@ -8,6 +8,7 @@ The game provides:
 
 - A login and lobby built with React, with the ability to password protect rooms
 - An in-game chatroom, built with Socket.IO
+- The ability to boot players and password-protect rooms
 - A fully functional guessing game
 
 ## Instructions
