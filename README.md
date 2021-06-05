@@ -33,15 +33,3 @@ General instructions for taking a **React project** and hosting it on **Netlify*
 Now when you commit and push to Github, Netlify will deploy the latest version of the project automatically.
 
 ## Built with
-
-- [JavaScript](https://www.javascript.com/) - The primary coding language
-- [VisualStudioCode](https://code.visualstudio.com/) - The code editor
-- [Babel](https://babeljs.io/) - The compiler
-
-- [Heroku](https://www.heroku.com/) - The cloud application platform used for the backend
-- [Netlify](https://www.netlify.com/) - The hosting service used for the frontend
-
-- [Socket.IO](https://socket.io/) - The realtime library
-
-- [React](https://reactjs.org/) - The frontend framework
-- [CSS Modules](https://github.com/css-modules/css-modules) - The design organisation system
