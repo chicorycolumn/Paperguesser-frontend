@@ -40,8 +40,6 @@ export default function App() {
   const [connectErrorAlert, setConnectErrorAlert] = useState();
   const [showDevButtons, setShowDevButtons] = useState(false);
 
-  // const refContainer = useRef(null);
-
   useEffect(() => {
     let socket = socketIOClient(ENDPOINT);
     // refContainer.current = socket;
