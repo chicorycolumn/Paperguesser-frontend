@@ -42,7 +42,6 @@ export default function App() {
 
   useEffect(() => {
     let socket = socketIOClient(ENDPOINT);
-    // refContainer.current = socket;
     setSocket(socket);
 
     console.log(`~~App~~ socket.id:${socket.id}`);
