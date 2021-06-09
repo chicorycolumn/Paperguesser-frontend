@@ -30,7 +30,6 @@
 
 .transitionObscurus {
   visibility: hidden;
-
   width: 100%;
   height: 100%;
   background-color: var(--pBlue_D1);
