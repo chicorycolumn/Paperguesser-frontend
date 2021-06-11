@@ -1,6 +1,5 @@
 .overflowScroll {
-  overflow: auto;
-  overflow-x: hidden;
+  overflow: hidden auto;
 }
 
 .overflowHidden {
